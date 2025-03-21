@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000; /* Fallback background color */
+    background-color: #ffffff; /* Fallback background color */
     background-image: url('./images/230410105808-02-migrant-boat-stranded-mediterranean-041023.webp');
     background-repeat: no-repeat;
     background-position: right center; /* Move the boat to the right */
     background-size: cover;
-    color: #ffffff;
+    color: #000000;
 }
 
 .container {
