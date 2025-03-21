@@ -4,87 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Negmar</title>
-    <!-- แก้ไขลิงก์ไฟล์ CSS -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="main-header">
-        <div class="container">
-            <div class="logo-container">
-                <img src="./images/logo.png" alt="Negmar Logo" class="logo">
-            </div>
-            <div class="header-buttons">
-                <button class="fleet-btn">Kuru Yük Filosu</button>
-                <button class="fleet-btn">LPG Filosu</button>
-                <div class="language-switch">
-                    <a href="#">EN</a> | <a href="#">TR</a>
-                </div>
-            </div>
-            <nav class="main-nav">
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <img src="logo.png" alt="Negmar Logo" class="logo">
+            <nav>
                 <ul>
                     <li><a href="#">Hakkımızda</a></li>
-                    <li><a href="#">Grup Şirketler</a></li>
-                    <li><a href="#">Filo</a></li>
+                    <li><a href="#">Grup Şirketleri</a></li>
                     <li><a href="#">İnsan Kaynakları</a></li>
                     <li><a href="#">Basın Odası</a></li>
-                    <li><a href="#">İletişim</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
+        <div class="hero-content">
             <h1>NEGMAR GRUBU OLARAK ÜLKEMİZE DEĞER KATIYORUZ.</h1>
-            <p>Negmar'ın yol hikayesi bir yatırım öyküsü olarak 2008'de başladı. Denizcilik ve lojistik sektörünün büyüyen gücü olarak bölgemize ve dünyaya değer katmaya devam edeceğiz.</p>
-            <a href="#" class="btn">Negmar Hakkında</a>
+            <p>Negmar’ın iş yapma biçimindeki gücü, 2009’da başladığı yolculuğunda sektöre değer katmaya devam ediyor.</p>
+            <button>Negmar Hakkında</button>
         </div>
     </section>
 
+    <!-- News Section -->
     <section class="news">
-        <div class="container">
-            <h2>NEGMAR'DAN HABERLER</h2>
-            <div class="news-grid">
-                <div class="news-item">
-                    <img src="https://via.placeholder.com/300x200?text=News+1" alt="News 1">
-                    <h3>İSTİNYE-BEYOZ ARABALI VAPUR HATTINA GÖZ DİKTİ</h3>
-                    <a href="#">HABERE GİT</a>
-                </div>
-                <!-- ...other news items... -->
+        <h2>NEGMAR’DAN HABERLER</h2>
+        <div class="news-container">
+            <div class="news-item">
+                <h3>15 Ağustos 2016</h3>
+                <p>İSTİNYE-BEYKOZ ARABALI VAPUR HATTI’NA GÖZ DİKTI</p>
             </div>
+            <div class="news-item">
+                <h3>...</h3>
+                <p>...</p>
+            </div>
+            <!-- Add more news items as needed -->
         </div>
     </section>
 
-    <footer class="main-footer">
-        <div class="container footer-content">
-            <div class="footer-logo">
-                <img src="./images/negmar-footer-logo-q5ar03fumwlzjf0rnxtyrlajng71i4p2aog2kzyy1k.png" alt="Negmar Footer Logo">
-            </div>
-            <div class="footer-section">
-                <h3>About Us</h3>
-                <ul>
-                    <li><a href="#">Founder</a></li>
-                    <li><a href="#">Vision & Mission</a></li>
-                    <li><a href="#">Negmar Community</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Headquarters</h3>
-                <p>Altunizade Mah.<br>
-                   Ord Prof. Fahrettin Kerim Gökay Cad.<br>
-                   No:35/1 Üsküdar, İstanbul<br>
-                   <a href="mailto:negmar@negmar.com">negmar@negmar.com</a>
-                </p>
-            </div>
-            <div class="footer-section">
-                <h3>Contact</h3>
-                <ul>
-                    <li><a href="#">Cookie Policy</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">PDPL</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>© 2023 Negmar Denizcilik Yatırım A.Ş.</p>
+                <p>...</p>
             </div>
         </div>
     </footer>
